@@ -14,7 +14,7 @@ function App() {
       </div>
       <h1>Vite</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button aria-label="increment-btn" onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
         <p>
